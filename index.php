@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css"> </head>
-
 <body>
   <nav class="navbar navbar-expand-md bg-dark text-white">
     <div class="container">
@@ -15,18 +14,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link text-white" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact us</a>
+            <a class="nav-link text-white" href="contact.php">Contact us</a>
           </li>
           <div align="left"> </div>
         </ul>
-        <a class="btn navbar-btn ml-2 text-white btn-secondary"><i class="fa d-inline fa-lg fa-user-circle-o" href="Login.html"></i> Sign in</a>
-        <a class="btn navbar-btn ml-2 text-white btn-secondary"><i class="fa d-inline fa-lg fa-user-circle-o"></i> Sign up</a>
+        <a class="btn navbar-btn ml-2 text-white btn-secondary" href="Login.php"><i class="fa d-inline fa-lg fa-user-circle-o" ></i> Sign in</a>
+        <a class="btn navbar-btn ml-2 text-white btn-secondary" href="register.php"><i class="fa d-inline fa-lg fa-user-circle-o"></i> Sign up</a>
       </div>
     </div>
   </nav>
@@ -76,15 +75,15 @@
     <div class="container">
       <div class="row">
         <div class="p-4 col-md-3">
-          <h2 class="mb-4 text-secondary">Pingendo</h2>
-          <p class="text-white">A company for whatever you may need, from website prototyping to publishing</p>
+          <h2 class="mb-4 text-secondary">Software Engineering Center</h2>
+          <p class="text-white">A company for whatever you may need, from Software</p>
         </div>
         <div class="p-4 col-md-3">
           <h2 class="mb-4 text-secondary">Mapsite</h2>
           <ul class="list-unstyled">
-            <a href="#" class="text-white">Home</a>
+            <a href="index.html" class="text-white">Home</a>
             <br>
-            <a href="#" class="text-white">About us</a>
+            <a href="contact.html" class="text-white">About us</a>
             <br>
             <a href="#" class="text-white">Our services</a>
             <br>
@@ -114,7 +113,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 mt-3">
-          <p class="text-center text-white">© Copyright 2017 Pingendo - All rights reserved. </p>
+          <p class="text-center text-white">© Copyright 2018 Software Engineering Center - All rights reserved. </p>
         </div>
       </div>
     </div>
@@ -122,9 +121,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
-    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
-  </pingendo>
 </body>
 
 </html>

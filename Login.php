@@ -16,12 +16,12 @@
           <div class="card text-white p-5 bg-primary">
             <div class="card-body">
               <h1 class="mb-4">Login form</h1>
-              <form action="https://formspree.io/YOUREMAILHERE">
-                <div class="form-group"> <label>Email address</label>
-                  <input type="email" class="form-control" placeholder="Enter email"> </div>
+              <form name="form1" method="post" action="check_login.php">
+                <div class="form-group"> <label>Username</label>
+                  <input name="txtUsername" type="text" id="txtUsername" class="form-control" placeholder="Enter username"> </div>
                 <div class="form-group"> <label>Password</label>
-                  <input type="password" class="form-control" placeholder="Password"> </div>
-                <button type="submit" class="btn btn-secondary">Login</button>
+                  <input name="txtPassword" type="password" id="txtPassword" class="form-control" placeholder="Password"> </div>
+                <input type="submit" name="Submit" value="Login" class="btn btn-secondary">
               </form>
             </div>
           </div>
